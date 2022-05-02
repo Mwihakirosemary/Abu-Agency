@@ -5,7 +5,7 @@ body{
 .container{
     border: solid 50px rgb(241,234,234);
     width: 998px;
-    height: 2800px;
+    height: 2816px;
     margin: 60px;
     margin-left: 10%;
     border-radius: 3%;
@@ -111,6 +111,7 @@ button{
 #prod{
     padding: 22px;
     padding-top: 16px;
+    box-shadow: 3px 7px 18px 3px rgb(240, 219, 219);
 
 }
 button span{
@@ -121,6 +122,8 @@ button span{
     color: rgb(87, 88, 104);
     margin-left: -5px;
     padding-top: 17px;
+    box-shadow: 3px 7px 18px 3px rgb(87, 88, 104);
+
 }
 #one{
     margin-top: -54%;
@@ -144,10 +147,17 @@ th{
 th span{
     font-size: 30px;
 }
-#logo1{
-    margin-top: -70px;
-    margin-left: 78%;
+.logo{
+    display: flex;
+    margin-top: 10%;
 }
+#comp{
+    margin-top: -30px;
+}
+
+   /* margin-top: -70px;
+    margin-left: 78%;*/ 
+
 .service{
     margin-top: 100px;
 
@@ -171,10 +181,13 @@ h3{
 
 
 }
+.boxes i{
+    margin-top: 40px;
+}
 #div1{
     background-color: rgb(245,249,250);
     width: 33%;
-    height: 260px;
+    height: 280px;
     color: rgb(58,21,7);
 
 }
@@ -182,6 +195,7 @@ h3{
     background-color: rgb(67,160,145);
     width: 33%;
     color: white;
+    box-shadow: 0 0 28px 0 rgb(240, 219, 219);
 
 }
 #div3{
@@ -189,7 +203,7 @@ h3{
     width: 33%;
 }
 h4{
-    margin-top: 70px;
+    margin-top: 40px;
     margin-left: 30px;
 } 
 .boxes p{
@@ -248,9 +262,10 @@ h6{
     border-radius: 35px;
     font-weight: bold;
     border: 2px solid white;
-    background: rgb(168, 213, 206);
+    background: white;
     margin-left: 580px;
     color: rgb(58,21,7);
+    box-shadow: 0 2px 18px 2px rgb(189, 190, 201);
 }
 #rage{
     width: 310px;
@@ -313,6 +328,7 @@ h6{
     border: 8px solid #ccc;
     background-color: rgb(189, 190, 201);
     box-sizing: border-box;
+    box-shadow: 0 2px 18px 2px rgb(240, 219, 219);
   }
   .major3{
       text-align: center;
@@ -390,6 +406,7 @@ label{
     padding: 15px;
     margin-left: -3px;
     color: white;
+    box-shadow: 3px 7px 18px 3px rgb(240, 219, 219);
 }
 .prince img{
     margin-top: -930px;
