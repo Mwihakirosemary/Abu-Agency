@@ -5,7 +5,7 @@ body{
 .container{
     border: solid 50px rgb(241,234,234);
     width: 998px;
-    height: 2816px;
+    height: 2826px;
     margin: 60px;
     margin-left: 10%;
     border-radius: 3%;
@@ -154,10 +154,6 @@ th span{
 #comp{
     margin-top: -30px;
 }
-
-   /* margin-top: -70px;
-    margin-left: 78%;*/ 
-
 .service{
     margin-top: 100px;
 
